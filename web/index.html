@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="food_delivery_app_admin">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>food_delivery_app_admin</title>
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+
+
+ <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+ <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-analytics.js"></script>
+ <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-firestore.js"></script>
+ <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-auth.js"></script>
+ <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-storage.js"></script>
+  <script>
+   firebaseConfig = {
+    apiKey: "AIzaSyDgCqdWe26G_MFq-wD-RRGD5DhepiXr2a4",
+    authDomain: "homework-3304f.firebaseapp.com",
+    projectId: "homework-3304f",
+    storageBucket: "homework-3304f.appspot.com",
+    messagingSenderId: "385503764269",
+    appId: "1:385503764269:web:0099df74832b9cd4267da4",
+    measurementId: "G-61ZNETWVKQ"
+  };
+
+  // Initialize Firebase
+     firebase.initializeApp(firebaseConfig);
+ firebase.analytics();
+
+</script>
+
+
+  <script>
+
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('flutter_service_worker.js');
+              });
+            }
+
+  </script>
+<script src="main.dart.js" type="application/javascript"></script>
+</body>
+</html>
